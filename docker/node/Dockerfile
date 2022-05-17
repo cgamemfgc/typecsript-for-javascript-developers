@@ -1,6 +1,6 @@
 FROM node:16.15.0
 
-RUN mkdir /src
-WORKDIR /src
+RUN mkdir /node
+WORKDIR /node
 
 EXPOSE 4200
