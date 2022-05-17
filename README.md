@@ -1,1 +1,1 @@
-# typecsript-for-javascript-developers
+# typescript-for-javascript-developers
