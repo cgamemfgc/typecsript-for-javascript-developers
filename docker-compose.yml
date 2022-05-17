@@ -3,9 +3,9 @@ version: '3'
 services:
   node:
     build: ./docker/node
-    container_name: typescript_practice
+    container_name: typescript-for-javascript-developers
     ports:
       - "4200:4200"
     volumes:
-      - "./app:/app"
+      - "./src:/src"
     tty: true

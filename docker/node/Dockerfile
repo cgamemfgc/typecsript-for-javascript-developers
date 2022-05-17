@@ -1,8 +1,6 @@
-FROM node
+FROM node:16.15.0
 
-RUN mkdir /app
-WORKDIR /app
-
-RUN npm install -g @angular/cli
+RUN mkdir /src
+WORKDIR /src
 
 EXPOSE 4200
